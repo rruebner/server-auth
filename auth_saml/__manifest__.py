@@ -1,9 +1,9 @@
-# Copyright (C) 2010-2016 XCG Consulting <http://odoo.consulting>
+# Copyright (C) 2010-2019 XCG Consulting <http://odoo.consulting>
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 {
     'name': 'Saml2 Authentication',
-    'version': '11.0.1.0.0',
+    'version': '11.0.1.1.0',
     'category': 'Tools',
     'author': 'XCG Consulting, Odoo Community Association (OCA)',
     'maintainer': 'XCG Consulting',
@@ -27,4 +27,5 @@
     'external_dependencies': {
         'python': ['lasso'],
     },
+    'development_status': 'stable',
 }
